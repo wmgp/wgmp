@@ -226,7 +226,7 @@ aside .widget{
 
 }
 
-/************************Section 2 *************************/
+/************************Footer  *************************/
 
 footer{
     display: flex;
@@ -428,4 +428,148 @@ footer{
         flex-direction: column;
     }
     
+}
+
+@media(min-width: 200px) and (max-width:349px){
+
+    .container{
+        width: 100%;
+    }
+    header{
+
+        display: none;
+    }
+
+    #banner{
+        width: 100%;
+        height: 200px;
+        margin: 20px;
+    }
+
+    .banner-up{
+        height: 300px; 
+    }
+
+    .banner-up h1{
+        width: 300px;
+        font-size: 10px;   
+    }
+
+    .banner-up h2{
+        width: 100px;
+        font-size: 6px;   
+    }
+    
+    .banner-1,
+    .banner-2,
+    .banner-3{
+        flex: 1;
+        padding: 10px;
+        background-color: #d3edfe;
+        opacity: 0.7;
+        border: 1px solid #394a5a;
+    }
+
+  
+    .banner-title{
+        font-size: 11px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .banner-desc span{
+        display: block;
+        font-size: 9px;
+    }
+    .banner-down{
+        display: flex;
+        flex-direction: column;
+    }
+
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.widget-title-text{
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#geral section{
+    flex: 2;
+    background-color: #d3edfe;
+}
+
+article{
+    flex: 1;
+}
+
+article .date{
+    display: flex;
+
+}
+
+article .news-posted{
+    background-color: #d6d6d6;
+    color: #000;
+    font-size: 13px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+article .comments{
+    background-color: #d6d6d6;
+    color: #000;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+article .news-thambnail{
+    margin-top: 20px;
+}
+
+article .news-thambnail img{
+    width: 100%;
+    height: auto;
+    
+}
+
+article .news-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+article .news-resume{
+    color: #000;
+    font-size: 8px;
+    line-height: 19px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+#geral aside{
+    flex: 1;
+    background-color: #d3edfe;
+    border-left: 1px solid #000;
+}
+
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.aside-assunt{
+    text-align: justify;
+    font-size: 10px;
+
+}
+
 }
